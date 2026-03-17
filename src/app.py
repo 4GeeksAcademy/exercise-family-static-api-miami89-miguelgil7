@@ -68,7 +68,7 @@ def delete_single_member(member_id):
     return jsonify({"done": True}), 200
 
 
-# This only runs if `$ python src/app.py` is executed
+# This only runs if `$ python src/app.py` is executed...
 if __name__ == '__main__':
     PORT = int(os.environ.get('PORT', 3000))
     app.run(host='0.0.0.0', port=PORT, debug=True)
